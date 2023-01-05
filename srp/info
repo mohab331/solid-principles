@@ -1,0 +1,13 @@
+S - stands for single responsibility principle
+
+SRP definition: A class should only have one reason to change. - A class should only be responsible for one thing,
+
+goal:
+- loose coupling
+- separation of concerns "each class concerned with only one thing"
+- cohesion "every thing in class is related to business of class"
+- catch error easily
+
+
+
+
