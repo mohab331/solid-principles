@@ -1,0 +1,4 @@
+O - Open-Closed principle - OCP
+OCP definition: software entities(classes , modules, functions,etc) should be opened foe extension and closed for modification
+-- support backward compatibility --
+extend behaviour but avoid any modification on source code
