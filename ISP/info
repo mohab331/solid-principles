@@ -1,0 +1,3 @@
+I -- interface segregation principle -- ISP
+definition: Don’t impose methods on clients if they are of no use
+avoid fat interface
