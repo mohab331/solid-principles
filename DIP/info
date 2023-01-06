@@ -1,0 +1,5 @@
+DIP — Dependency Inversion Principle
+High-level modules/classes should not depend on low-level modules/classes. Both should depend upon abstractions.
+This principle is all about the loose coupling of your classes making them more
+localized and connecting them with abstract class.
+It’s better to connect the high-level class to the low level via abstract class.
