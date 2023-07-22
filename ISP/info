@@ -1,3 +1,21 @@
 I -- interface segregation principle -- ISP
-definition: Don’t impose methods on clients if they are of no use
-avoid fat interface
+definition: The Interface Segregation Principle suggests that a class should not be forced to implement interfaces or methods it does not use.
+
+Meaning: When designing interfaces, it's essential to keep them focused and relevant to the specific needs of the classes
+that implement them. Avoid creating "fat" interfaces that contain many methods, as this can lead to classes implement methods they don't actually need.
+In other words, don't add unnecessary functionalities to a class that won't use them.
+
+Benefits of ISP
+
+
+
+a) Focused Interfaces: Interfaces are more focused and specific to the needs of individual classes, reducing unnecessary burden on implementing classes.
+
+b) Modularity: Each class is decoupled from functionalities it doesn't use, promoting a modular and maintainable codebase.
+
+c) Extensibility: Adding new functionalities or devices becomes easier, as each class implements only the relevant interfaces.
+
+d) Readability: Code becomes more readable and understandable since each interface represents a specific set of capabilities.
+
+e) Encapsulation: Classes encapsulate their functionalities better, making it clear what each class can do.
+

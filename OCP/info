@@ -1,4 +1,28 @@
-O - Open-Closed principle - OCP
-OCP definition: software entities(classes , modules, functions,etc) should be opened foe extension and closed for modification
--- support backward compatibility --
-extend behaviour but avoid any modification on source code
+O - OCP - Open/Closed Principle
+
+Definition: Class should be open for extension but closed for modification.
+
+Meaning: That once you have built something (like a class or a piece of code),
+you should be able to add new features to it without changing the original code to make people who work on the old class or
+
+Imagine you are an architect creating blueprints for different types of houses.
+Each blueprint represents a unique design with specific rooms and sizes.
+Following the Open/Closed Principle means that once you have created a blueprint,
+you should be able to add new features, like a home office or a swimming pool, without changing the original blueprint.
+This approach ensures that people who work with the original blueprint won't be affected,and you can easily add what you need.
+By following this principle, the blueprints become more flexible, making them easier to maintain and adapt to different client requirements.
+
+
+Example: House Blueprints
+In the design of house blueprints, we used to have fixed attributes for each type of house,
+like the number of bedrooms, bathrooms, kitchen size, etc. But if we wanted to add new features,
+we had to modify the existing blueprint, which could lead to errors and affect other house designs.
+
+Now, by following the Open/Closed Principle,
+we create a base blueprint with essential attributes.
+Additionally, we provide extension options for specific features,
+such as a home office, swimming pool, library room, or gym room. With this approach,
+we can easily include these extensions in a blueprint without changing the original design.
+Clients can now request houses with additional features without affecting the core structure of the original blueprint.
+This makes the blueprints more adaptable and customizable, allowing us to efficiently design houses tailored to individual
+preferences while keeping the original design intact.

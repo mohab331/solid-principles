@@ -1,12 +1,18 @@
-S - stands for single responsibility principle
+S - SRP - Single Responsibility Principle
+Definition: A class should only have one reason to change, meaning it should be responsible for one thing or have a "single responsibility."
 
-SRP definition: A class should only have one reason to change. - A class should only be responsible for one thing,
+Example: Let's imagine we are building a house. We have different workers with specific roles:
 
-goal:
-- loose coupling
-- separation of concerns "each class concerned with only one thing"
-- cohesion "every thing in class is related to business of class"
-- catch error easily
+a) Carpenter: Responsible for building and installing wooden structures like doors, cabinets, and wooden flooring.
+
+b) Plumber: Responsible for installing plumbing fixtures like pipes, sinks, and toilets.
+
+c) Electrician: Responsible for installing the electrical wiring, switches, and fixtures.
+
+Each worker focuses on their role and responsibility, ensuring that the work is done efficiently.
+If a change is needed in the wooden structures, it will be the responsibility of the carpenter,
+and it won't affect the plumbing or electrical work, and vice versa.
+This division of responsibilities makes it easy to identify who to approach to fix specific issues, resulting in a more organized and maintainable construction process.
 
 
 
