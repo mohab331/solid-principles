@@ -3,7 +3,7 @@ O - OCP - Open/Closed Principle
 Definition: Class should be open for extension but closed for modification.
 
 Meaning: That once you have built something (like a class or a piece of code),
-you should be able to add new features to it without changing the original code to make people who work on the old class or
+you should be able to add new features to it without changing the original code to make people who work on the old class don't be affected.
 
 Imagine you are an architect creating blueprints for different types of houses.
 Each blueprint represents a unique design with specific rooms and sizes.
