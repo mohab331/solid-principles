@@ -1,3 +1,3 @@
 D - (DIP) - Dependency Inversion Principle
 Definition: high-level modules should not depend on low-level modules; both should depend on abstractions. It also states that abstractions should not depend on details; details should depend on abstractions.
-Benefits:
+see the code example for better understanding
